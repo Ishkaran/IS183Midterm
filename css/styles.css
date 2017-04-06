@@ -1,0 +1,104 @@
+*{
+    margin:0;
+    padding:0;
+}
+div.container {
+width:70%;
+margin:0 auto;
+height:700px;
+}
+div.wrapper{
+    flex:1;
+}
+.main-header {
+    height:50px;
+    width: 70%;
+    padding:5px 15%;
+}
+.f_name, .l_name, .e_mail
+	{
+		margin:5px;
+		padding:5px;
+		height:15px;
+		border-radius:5px;
+		font-size:12px;
+		width:340px;
+	}	
+footer {
+    width:98%;
+    height: 50px;
+   
+}
+.copyright{
+    font-weight:bold;
+    text-align:center;
+    padding: 15px 0;
+}
+button.submitbutton{
+    padding:5px 15px;
+    float:right;
+}
+div.login-form {
+    width:300px;
+    height: 250px;
+    margin: 90px auto 0;
+    border-radius:7px;
+    padding:20px;
+}
+input.login-input {
+    width:100%;
+    padding:5px 2px;
+    border-radius: 5px;
+    margin:7px 0;
+}
+button.login-button{
+    padding:5px 15px;
+    border-radius:7px;
+}
+p.error-message{
+    display:none;
+    height:5px;
+    padding:5px;
+    width:100;
+
+}
+img.logo{
+    height: 100px;
+    width: 200px;
+} 
+.contact{
+    margin:0 auto;
+    width:300px;
+    padding:10px;
+}
+section.main{
+    width:60%;
+    padding:1%;
+    float:left;
+    height:auto;
+}
+
+aside.recent{
+    width:20%;
+    float:right;
+    padding:1%;
+}
+div.about{
+    padding:1%;
+    height:auto;
+    width:88%;
+
+}
+aside.menu{
+    width:10%;
+    padding:1%;
+    height:80%;
+    float:left;
+}
+table{
+    border: 2px solid;
+}
+table tr td{
+    border: 1px solid;
+		padding:5px;
+}
